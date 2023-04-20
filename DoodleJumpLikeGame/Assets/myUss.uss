@@ -1,0 +1,41 @@
+.unity-text-element {
+    -unity-font: initial;
+}
+
+.mainLabel {
+    font-size: 24px;
+    -unity-text-align: upper-center;
+    color: rgb(255, 184, 184);
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    letter-spacing: 10px;
+}
+
+.scoreLabel {
+    -unity-font-style: normal;
+    -unity-text-align: upper-center;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    letter-spacing: 10px;
+}
+
+.scoreContainer {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(202, 202, 202);
+    border-top-color: rgb(202, 202, 202);
+    border-right-color: rgb(202, 202, 202);
+    border-left-color: rgb(202, 202, 202);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

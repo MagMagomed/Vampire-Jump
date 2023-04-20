@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/myUss.uss?fileID=7433441132597879392&amp;guid=56e3ce2346f914243bc2603f5a56997b&amp;type=3#myUss" />
+    <ui:VisualElement name="VisualElement" style="-unity-text-align: upper-left; align-items: center;">
+        <ui:VisualElement name="Container" style="justify-content: space-between;">
+            <ui:VisualElement name="main-menu" style="align-items: center; justify-content: center; height: 451px; overflow: hidden; width: 221px; -unity-text-align: upper-center;">
+                <ui:Label text="Menu" display-tooltip-when-elided="true" class="mainLabel" style="font-size: 26px; letter-spacing: 2px; color: rgb(255, 76, 76); -unity-text-align: upper-center;" />
+                <ui:VisualElement name="VisualElement" class="scoreContainer" style="align-items: center; border-bottom-width: 2px; border-bottom-color: rgb(195, 195, 195); border-top-color: rgb(195, 195, 195); border-right-color: rgb(195, 195, 195); border-left-color: rgb(195, 195, 195); font-size: 20px; overflow: hidden; -unity-font: initial;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="score" view-data-key="score" class="scoreLabel" style="-unity-font: initial; color: rgb(221, 221, 221); white-space: normal;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="align-items: center; justify-content: center;">
+                    <ui:Button text="Play" name="play-game" click-event="play-game" style="letter-spacing: 10px; align-items: center; justify-content: center; visibility: visible; overflow: visible; display: flex; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: rgb(43, 43, 43); color: rgb(255, 32, 32); -unity-font: initial;" />
+                    <ui:Button text="Settings" name="settings" click-event="play-game" style="letter-spacing: 10px; align-items: center; justify-content: center; visibility: visible; overflow: visible; display: flex; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: rgb(43, 43, 43); color: rgb(255, 32, 32); -unity-font: initial;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

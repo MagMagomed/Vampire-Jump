@@ -15,8 +15,8 @@ public class MainMenu : MonoBehaviour
     {
         try
         {
-            distanceLeaderbordController.SaveDistanceToLeaderbord();
-            Yandex.ShowAds();
+            //distanceLeaderbordController.SaveDistanceToLeaderbord();
+            //Yandex.ShowAds();
         }
         catch
         {

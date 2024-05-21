@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GoToMenuController : MonoBehaviour
 {
-   public void GoToMenu()
+    public void GoToMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+    public void GoToResults()
+    {
+        SceneManager.LoadScene("Results");
     }
 }

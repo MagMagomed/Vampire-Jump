@@ -8,24 +8,13 @@ using UnityEngine.UI;
 
 public class MainMenuCanvasController : MonoBehaviour
 {
-    [SerializeField] private TMP_Text bestLastScore;
     [SerializeField] private Button soundButton;
     [SerializeField] private List<Sprite> sprites;
 
     public DistanceLeaderbordController distanceLeaderbordController;
     private void Start()
     {
-        var bestScore = PlayerPrefs.GetInt("Best score");
-        var lastScore = PlayerPrefs.GetInt("Last score");
-        bestLastScore.text = $"Best score: {bestScore}\nLast score: {lastScore}";
-
-        if (CoinsCounterController.instance != null)
-        {
-            CoinsCounterController.instance.RemoveCoins(CoinsCounterController.instance.GetCoinsCount());
-        }
-
-        distanceLeaderbordController.SaveDistanceToLeaderbord();
-        Yandex.ShowAds();
+        //Yandex.ShowAds();
     }
     private void Update()
     {
